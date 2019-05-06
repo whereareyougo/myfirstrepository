@@ -2,9 +2,9 @@
 #hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 80000
 server:
   port: 8200
-logging:
-  level:
-    com.yasaka.stock.feign.MFeignClient: debug
+#logging:
+#  level:
+#    com.yasaka.stock.feign.MFeignClient: debug
 feign:
   hystrix:
     enabled: true
